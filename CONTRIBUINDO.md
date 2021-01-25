@@ -1,4 +1,4 @@
-# Contributing
+# Contribuindo
 
 As contribuições são bem-vindas e muito apreciadas! Cada pequena parte ajuda, e sempre haverá crédito. Você pode contribuir das maneiras listadas abaixo.
 
