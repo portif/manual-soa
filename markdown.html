@@ -1,0 +1,397 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arquivos Markdown &#8212; Manual de Sistemas Operacionais Abertos</title>
+    
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Content with notebooks" href="notebooks.html" />
+    <link rel="prev" title="Conteúdo no livro Jupyter" href="content.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">Manual de Sistemas Operacionais Abertos</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Bem-vindo ao seu livro Jupyter
+  </a>
+ </li>
+</ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active collapsible-parent">
+  <a class="reference internal" href="content.html">
+   Conteúdo no livro Jupyter
+  </a>
+  <ul class="current collapse-ul">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Arquivos Markdown
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="notebooks.html">
+     Content with notebooks
+    </a>
+   </li>
+  </ul>
+  <i class="fas fa-chevron-down">
+  </i>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        <a class="dropdown-buttons"
+            href="_sources/markdown.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download notebook file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/markdown.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/markdown.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#o-que-e-myst">
+   O que é MyST?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#o-que-sao-funcoes-e-diretivas">
+   O que são funções e diretivas?
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#usando-uma-diretiva">
+     Usando uma diretiva
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#usando-uma-funcao">
+     Usando uma função
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#adicionando-uma-citacao">
+     Adicionando uma citação
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#executando-codigo-em-seus-arquivos-markdown">
+     Executando código em seus arquivos markdown
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="arquivos-markdown">
+<h1>Arquivos Markdown<a class="headerlink" href="#arquivos-markdown" title="Permalink to this headline">¶</a></h1>
+<p>Quer você escreva o conteúdo do seu livro em Jupyter Notebooks (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) ou em arquivos de markdown regulares (<code class="docutils literal notranslate"><span class="pre">.md</span></code>), você escreverá no mesmo tipo de markdown chamado <strong>MyST Markdown</strong>.</p>
+<div class="section" id="o-que-e-myst">
+<h2>O que é MyST?<a class="headerlink" href="#o-que-e-myst" title="Permalink to this headline">¶</a></h2>
+<p>MyST significa “texto estruturado marcadamente”. Isto
+é uma ligeira variação de um tipo de markdown chamado markdown “CommonMark”, com pequenas extensões de sintaxe para permitir que você escreva <strong>funções</strong> e <strong>diretivas</strong> no ecossistema da Esfinge.</p>
+</div>
+<div class="section" id="o-que-sao-funcoes-e-diretivas">
+<h2>O que são funções e diretivas?<a class="headerlink" href="#o-que-sao-funcoes-e-diretivas" title="Permalink to this headline">¶</a></h2>
+<p>Funções e diretivas são duas das ferramentas mais poderosas do Jupyter Book. Eles são funções semelhantes, mas escritas em uma linguagem de marcação. Ambos servem a um propósito semelhante, mas <strong>funções são escritas em uma linha</strong>, enquanto
+<strong>as diretivas abrangem muitas linhas</strong>. Ambos aceitam diferentes tipos de entradas, e o que eles fazem com essas entradas depende da função ou diretiva específica que está sendo chamado.</p>
+<div class="section" id="usando-uma-diretiva">
+<h3>Usando uma diretiva<a class="headerlink" href="#usando-uma-diretiva" title="Permalink to this headline">¶</a></h3>
+<p>Na sua forma mais simples, você pode inserir uma diretiva no conteúdo do seu livro da seguinte forma:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{nome-de-minha-diretiva}
+Conteúdo de minha diretiva
+```
+</pre></div>
+</div>
+<p>Isso só funcionará se uma diretiva com o nome <code class="docutils literal notranslate"><span class="pre">mydirectivename</span></code> já existir (o que não acontece). Existem muitas diretivas predefinidas associadas a Livro de Jupyter. Por exemplo, para inserir uma caixa de nota em seu conteúdo, você pode use a seguinte diretiva:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{note}
+Aqui é uma nota
+```
+</pre></div>
+</div>
+<p>O resultado é:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Aqui é uma nota</p>
+</div>
+<p>Em seu livro construído.</p>
+<p>Para obter mais informações sobre como escrever diretivas, consulte o
+<a class="reference external" href="https://myst-parser.readthedocs.io/">Documentação MyST</a>.</p>
+</div>
+<div class="section" id="usando-uma-funcao">
+<h3>Usando uma função<a class="headerlink" href="#usando-uma-funcao" title="Permalink to this headline">¶</a></h3>
+<p>As funções são muito semelhantes às diretivas, mas são menos complexas e escritas inteiramente em uma linha.Você pode inserir uma função no conteúdo do seu livro com esse padrão:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Algum conteúdo {rolename}`e aqui está o conteúdo da minha função!`
+</pre></div>
+</div>
+<p>Novamente, os papéis só funcionarão se <code class="docutils literal notranslate"><span class="pre">rolename</span></code> for um nome de papel válido. Por exemplo, a função <code class="docutils literal notranslate"><span class="pre">doc</span></code> pode ser usada para se referir a outra página em seu livro. Você pode se referir diretamente a outra página por seu caminho relativo. Por exemplo, a sintaxe da função <code class="docutils literal notranslate"><span class="pre">{doc}`intro`</span></code> resultará em: <span class="xref std std-doc"> intro</span>.</p>
+<p>Para obter mais informações sobre como escrever funções, consulte o
+<a class="reference external" href="https://myst-parser.readthedocs.io/">Documentação MyST</a>.</p>
+</div>
+<div class="section" id="adicionando-uma-citacao">
+<h3>Adicionando uma citação<a class="headerlink" href="#adicionando-uma-citacao" title="Permalink to this headline">¶</a></h3>
+<p>Você também pode citar referências que estão armazenadas em um arquivo <code class="docutils literal notranslate"><span class="pre">bibtex</span></code>. Por exemplo, a seguinte sintaxe: <code class="docutils literal notranslate"><span class="pre">{cite}`holdgraf_evidence_2014`</span></code> será renderizada assim: <a class="bibtex reference internal" href="#holdgraf-evidence-2014" id="id1">[HdHPK14]</a>.</p>
+<p>Além disso, você pode inserir uma bibliografia em sua página com esta sintaxe. A diretiva <code class="docutils literal notranslate"><span class="pre">{bibliography}</span></code> deve ser usada para que todas as funções <code class="docutils literal notranslate"><span class="pre">{cite}</span></code> sejam renderizadas corretamente. Por exemplo, se as referências para o seu livro estão armazenadas em <code class="docutils literal notranslate"><span class="pre">referencias.bib</span></code>, então a bibliografia é inserida com:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{bibliography} referencias.bib
+```
+</pre></div>
+</div>
+<p>Resultando em uma bibliografia renderizada que se parece com:</p>
+<p id="bibtex-bibliography-markdown-0"><dl class="citation">
+<dt class="bibtex label" id="holdgraf-evidence-2014"><span class="brackets"><a class="fn-backref" href="#id1">HdHPK14</a></span></dt>
+<dd><p>Christopher Ramsay Holdgraf, Wendy de Heer, Brian N. Pasley, and Robert T. Knight. Evidence for Predictive Coding in Human Auditory Cortex. In <em>International Conference on Cognitive Neuroscience</em>. Brisbane, Australia, Australia, 2014. Frontiers in Neuroscience.</p>
+</dd>
+</dl>
+</p>
+</div>
+<div class="section" id="executando-codigo-em-seus-arquivos-markdown">
+<h3>Executando código em seus arquivos markdown<a class="headerlink" href="#executando-codigo-em-seus-arquivos-markdown" title="Permalink to this headline">¶</a></h3>
+<p>Se você gostaria de incluir conteúdo computacional dentro desses arquivos markdown, você pode usar MyST Markdown para definir células que serão executadas quando seu livro é construído. O Jupyter Book usa <em>jupytext</em> para fazer isso.</p>
+<p>Primeiro, adicione metadados Jupytext ao arquivo. Por exemplo, para adicionar metadados Jupytext para esta página de redução, execute este comando:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span><span class="o">-</span><span class="n">book</span> <span class="n">myst</span> <span class="n">init</span> <span class="n">markdown</span><span class="o">.</span><span class="n">md</span>
+</pre></div>
+</div>
+<p>Uma vez que um arquivo markdown contém metadados Jupytext, você pode adicionar o seguinte diretiva para executar o código em tempo de compilação:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{code-cell}
+print(&quot;Aqui está um código para executar&quot;)
+```
+</pre></div>
+</div>
+<p>Quando seu livro for construído, o conteúdo de qualquer bloco <code class="docutils literal notranslate"><span class="pre">{code-cell}</span></code> será executado com seu kernel Jupyter padrão, e suas saídas serão exibidas em linha com o resto do seu conteúdo.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Aqui está um código para executar&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Aqui está um código para executar
+</pre></div>
+</div>
+</div>
+</div>
+<p>Para obter mais informações sobre a execução de conteúdo computacional com o Jupyter Book, consulte <a class="reference external" href="https://myst-nb.readthedocs.io/">The MyST-NB documentation</a>.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="content.html" title="previous page">Conteúdo no livro Jupyter</a>
+    <a class='right-next' id="next-link" href="notebooks.html" title="next page">Content with notebooks</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Jurandy Soares<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
