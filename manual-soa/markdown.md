@@ -1,10 +1,25 @@
+---
+jupytext:
+  cell_metadata_filter: -all
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.12
+    jupytext_version: 1.9.1
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
 # Arquivos Markdown
 
 Quer você escreva o conteúdo do seu livro em Jupyter Notebooks (`.ipynb`) ou em arquivos de markdown regulares (`.md`), você escreverá no mesmo tipo de markdown chamado **MyST Markdown**.
 
 ## O que é MyST?
 
-MyST significa "texto estruturado marcadamente".isto
+MyST significa "texto estruturado marcadamente". Isto
 é uma ligeira variação de um tipo de markdown chamado markdown "CommonMark", com pequenas extensões de sintaxe para permitir que você escreva **funções** e **diretivas** no ecossistema da Esfinge.
 
 ## O que são funções e diretivas?
@@ -41,6 +56,7 @@ Em seu livro construído.
 Para obter mais informações sobre como escrever diretivas, consulte o
 [Documentação MyST](https://myst-parser.readthedocs.io/).
 
++++
 
 ### Usando uma função
 
@@ -55,7 +71,7 @@ Novamente, os papéis só funcionarão se `rolename` for um nome de papel válid
 Para obter mais informações sobre como escrever funções, consulte o
 [Documentação MyST](https://myst-parser.readthedocs.io/).
 
-### Adding a citation
+### Adicionando uma citação
 
 Você também pode citar referências que estão armazenadas em um arquivo `bibtex`. Por exemplo, a seguinte sintaxe: `` {cite}`holdgraf_evidence_2014` `` será renderizada assim: {cite}`holdgraf_evidence_2014`.
 
@@ -85,13 +101,14 @@ Uma vez que um arquivo markdown contém metadados Jupytext, você pode adicionar
 
 ````
 ```{code-cell}
-print("Here is some code to execute")
+print("Aqui está um código para executar")
 ```
 ````
 
-When your book is built, the contents of any `{code-cell}` blocks will be
-executed with your default Jupyter kernel, and their outputs will be displayed
-in-line with the rest of your content.
+Quando seu livro for construído, o conteúdo de qualquer bloco `{code-cell}` será executado com seu kernel Jupyter padrão, e suas saídas serão exibidas em linha com o resto do seu conteúdo.
 
-For more information about executing computational content with Jupyter Book,
-see [The MyST-NB documentation](https://myst-nb.readthedocs.io/).
+```{code-cell}
+print("Aqui está um código para executar")
+```
+
+Para obter mais informações sobre a execução de conteúdo computacional com o Jupyter Book, consulte [The MyST-NB documentation](https://myst-nb.readthedocs.io/).

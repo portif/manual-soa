@@ -1,7 +1,7 @@
-Welcome to your Jupyter Book
-============================
 
-This is a small sample book to give you a feel for how book content is
-structured.
+Bem-vindo ao seu livro Jupyter
+==============================
 
-Check out the content pages bundled with this sample book to get started.
+Este é um pequeno livro de amostra para lhe dar uma ideia de como o conteúdo do livro é estruturada.
+
+Verifique as páginas de conteúdo incluídas neste livro de amostra para começar.
